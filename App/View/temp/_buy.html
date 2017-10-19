@@ -1,0 +1,26 @@
+<div class="info">
+    <div class="left">
+        <label ng-class="{on:obj.state}"
+    ng-click="objChecked(index)">
+            <i class="fa fa-check"></i>
+        </label>
+    </div>
+    <div class="right" ng-click="">
+        <dl>
+            <dt><img src="{{obj.imgSrc}}" alt=""></dt>
+            <dd>
+                <h5 class="text-nobr">{{obj.title}}</h5>
+                <h6>{{obj.text}}</h6>
+                <div class="plus">
+                    <p class="price">￥<b class="mr15">{{obj.price}}</b> 小计：<b>{{obj.total}}</b></p>
+                    <p>
+                        <em ng-click="objCount('-')">-</em>
+                        <em>{{obj.num}}</em>
+                        <em ng-click="objCount('+')">+</em>
+                    </p>
+                </div>
+            </dd>
+            <i class="fa fa-close" ng-click="deleteObj(index)"></i>
+        </dl>
+    </div>
+</div>

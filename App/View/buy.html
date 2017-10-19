@@ -1,0 +1,22 @@
+<header class="header">
+        <h1>购物车</h1>
+</header>
+<section class="content">
+        <buy ng-repeat="obj in data"
+             obj="obj"
+             index="{{$index}}"></buy>
+</section>
+<footer class="footer">
+        <div class="col-xs-8 total">
+            <span ng-class="{on:flag}" ng-click="checkAll()">
+                <label>
+                    <i class="fa fa-check"></i>
+                </label>
+                全选
+            </span>
+            <span class="money">合计：<b>￥<em>{{goodsPrice}}</em></b></span>
+        </div>
+        <div class="sum">
+                <button class="col-xs-4">结算（{{goodsCount}}）</button>
+        </div>
+</footer>

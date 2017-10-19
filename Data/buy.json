@@ -1,0 +1,56 @@
+[
+  {
+    "imgSrc":"./Content/img/img_01.jpg",
+    "title": "初冬新款对象，身高183，体重60kg",
+    "text": "肤色：小麦色",
+    "price": 98,
+    "total":98,
+    "num": 1,
+    "state":false
+  },
+  {
+    "imgSrc":"./Content/img/img_02.jpg",
+    "title": "初春新款对象，身高184，体重50kg",
+    "text": "肤色：古铜色",
+    "price": 80,
+    "total":80,
+    "num": 1,
+    "state":false
+  },
+  {
+    "imgSrc":"./Content/img/img_01.jpg",
+    "title": "初冬新款对象，身高183，体重60kg",
+    "text": "肤色：小麦色",
+    "price": 98,
+    "total":98,
+    "num": 1,
+    "state":false
+  },
+  {
+    "imgSrc":"./Content/img/img_02.jpg",
+    "title": "初春新款对象，身高184，体重50kg",
+    "text": "肤色：古铜色",
+    "price": 80,
+    "total":80,
+    "num": 1,
+    "state":false
+  },
+  {
+    "imgSrc":"./Content/img/img_01.jpg",
+    "title": "初冬新款对象，身高183，体重60kg",
+    "text": "肤色：小麦色",
+    "price": 98,
+    "total":98,
+    "num": 1,
+    "state":false
+  },
+  {
+    "imgSrc":"./Content/img/img_02.jpg",
+    "title": "初春新款对象，身高184，体重50kg",
+    "text": "肤色：古铜色",
+    "price": 80,
+    "total":80,
+    "num": 1,
+    "state":false
+  }
+]
